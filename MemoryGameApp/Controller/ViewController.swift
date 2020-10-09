@@ -215,7 +215,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let alertActionRestart = UIAlertAction(title: "Restart?", style: .default) { (restart) in
             self.restart()
         }
-        alert.addAction(alertActionOk)
+        //alert.addAction(alertActionOk)
         alert.addAction(alertActionRestart)
         
         present(alert,animated: true, completion: nil)

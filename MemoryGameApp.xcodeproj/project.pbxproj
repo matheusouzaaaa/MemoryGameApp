@@ -60,17 +60,49 @@
 		57183F2A252BF48700FB4DC9 /* MemoryGameApp */ = {
 			isa = PBXGroup;
 			children = (
-				57183F2B252BF48700FB4DC9 /* AppDelegate.swift */,
-				57183F2D252BF48700FB4DC9 /* ViewController.swift */,
-				57497B41252D40C5008F2073 /* CardModel.swift */,
-				57497B43252D41BE008F2073 /* Card.swift */,
-				57497B45252D451E008F2073 /* CardCollectionViewCell.swift */,
-				57183F2F252BF48700FB4DC9 /* Main.storyboard */,
-				57183F32252BF48900FB4DC9 /* Assets.xcassets */,
-				57183F34252BF48900FB4DC9 /* LaunchScreen.storyboard */,
-				57183F37252BF48900FB4DC9 /* Info.plist */,
+				576105D2253098CD00CE4F36 /* View */,
+				576105D1253098C700CE4F36 /* Model */,
+				576105D02530986500CE4F36 /* Controller */,
+				576105CF2530985E00CE4F36 /* Suporte */,
 			);
 			path = MemoryGameApp;
+			sourceTree = "<group>";
+		};
+		576105CF2530985E00CE4F36 /* Suporte */ = {
+			isa = PBXGroup;
+			children = (
+				57183F34252BF48900FB4DC9 /* LaunchScreen.storyboard */,
+				57183F2B252BF48700FB4DC9 /* AppDelegate.swift */,
+				57183F37252BF48900FB4DC9 /* Info.plist */,
+				57183F32252BF48900FB4DC9 /* Assets.xcassets */,
+			);
+			path = Suporte;
+			sourceTree = "<group>";
+		};
+		576105D02530986500CE4F36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57183F2D252BF48700FB4DC9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		576105D1253098C700CE4F36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57497B41252D40C5008F2073 /* CardModel.swift */,
+				57497B43252D41BE008F2073 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		576105D2253098CD00CE4F36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57497B45252D451E008F2073 /* CardCollectionViewCell.swift */,
+				57183F2F252BF48700FB4DC9 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemoryGameApp/Info.plist;
+				INFOPLIST_FILE = MemoryGameApp/Suporte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MemoryGameApp/Info.plist;
+				INFOPLIST_FILE = MemoryGameApp/Suporte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
